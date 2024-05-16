@@ -3,7 +3,7 @@ const {TokenStandard, createAndMint} = require("@metaplex-foundation/mpl-token-m
 const {createUmi} = require("@metaplex-foundation/umi-bundle-defaults");
 const {mplCandyMachine} = require("@metaplex-foundation/mpl-candy-machine");
 require("@solana/web3.js");
-const secret = require("./dummy.json")
+const secret = require("../dummy.json")
 require("dotenv").config();
 
 const umi = createUmi(process.env.QUICKNODE_RPC); //Replace with your QuickNode RPC Endpoint
